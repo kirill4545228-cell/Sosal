@@ -1,0 +1,17 @@
+name: SosalPlugin
+version: '1.0.0'
+main: ru.sosal.SosalPlugin
+api-version: '1.21'
+description: Пёрышко-рывок, двойной прыжок и меню с 25+ способностями
+commands:
+  sosal:
+    description: Выдать пёрышко и палочку / открыть меню
+    usage: /sosal [menu|feather|stick|help]
+    permission: sosal.use
+permissions:
+  sosal.use:
+    description: Использование /sosal
+    default: true
+  sosal.admin:
+    description: Админ-функции (Ясный день)
+    default: op
