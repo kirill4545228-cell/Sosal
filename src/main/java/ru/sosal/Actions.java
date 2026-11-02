@@ -378,7 +378,7 @@ public final class Actions {
                 }
             }, 600L);
         }
-        p.getWorld().playSound(p.getLocation(), Sound.ENTITY_WOLF_HOWL, 1f, 1f);
+        p.getWorld().playSound(p.getLocation(), Sound.ENTITY_PLAYER_LEVELUP, 1f, 1f);
         return true;
     }
 }
